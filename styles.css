@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+.container h2 {
+  color: hsl(234, 12%, 34%);
+}
+
+.container p {
+  color: hsl(229, 6%, 66%);
+}
+
+.container .header {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+.container .title {
+  font-weight: 300;
+}
+.container .powered {}
+.container .about {
+  margin: 20px 70px;
+}
+
+
+.container .cards {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+  align-items: center;
+}
+.container .cards .card {
+  background-color: #fff;
+  padding: 25px;
+  height: fit-content;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 0 7px 10px hsla(229, 6%, 66%, 0.541);
+}
+.container .cards .card h2 {
+  font-size: 20px;
+}
+.container .cards .card p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+.container .cards .card img {
+  margin-top: 40px;
+  align-self: flex-end;
+}
+.container .cards .supervisor {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.container .cards .center-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .cards .center-cards .team-builder {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.container .cards .center-cards .karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.container .cards .calculator {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+/* === Footer === */
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  background-color: hsl(229, 6%, 66%);
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+/* === Media Query === */
+@media (max-width: 767px) {
+  .container .cards {
+    flex-direction: column;
+  }
+}
