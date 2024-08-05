@@ -13,6 +13,7 @@ body {
   max-width: 1000px;
   margin: 50px auto;
   font-family: "Poppins", sans-serif;
+  height: 90vh;
 }
 .container h2 {
   color: hsl(234, 12%, 34%);
